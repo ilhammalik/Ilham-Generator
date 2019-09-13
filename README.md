@@ -1,6 +1,5 @@
 # Clean Architecture XCode templates
 
-This is a set of templates for XCode to generate the Uncle Bob's Clean Architecture classes system for Swift 3.0 and Objective-C.
 
 This work is based on Clean Swift Templates project (http://clean-swift.com) by Raymond Law.
 Portions are taken from templates project by HELM (https://github.com/HelmMobile/clean-swift-templates).

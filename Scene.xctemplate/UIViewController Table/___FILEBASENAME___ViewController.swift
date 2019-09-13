@@ -22,7 +22,7 @@ protocol ___VARIABLE_sceneName___DisplayLogic: class
   func displayModel(viewModel: ___VARIABLE_sceneName___.Model.ViewModel)
 }
 
-class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_sceneName___DisplayLogic, EmptyDataSetSource, EmptyDataSetDelegate
+class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_sceneName___DisplayLogic, EmptyDataSetSource, EmptyDataSetDelegate,UITableViewDelegate,UITableViewDataSource
 {
   var interactor: ___VARIABLE_sceneName___BusinessLogic?
   var router: (NSObjectProtocol & ___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
